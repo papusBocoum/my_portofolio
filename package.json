@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "responsive portofolio",
   "main": "index.js",
+  "homepage": "https://papusBocoum.github.io/my_portofolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ousmane Bocoum",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
